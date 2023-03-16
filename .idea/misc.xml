@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SportsCampus/app/src/main/res/drawable-xxhdpi/ic_android.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/drawable-xxhdpi/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/activity_login.xml" value="0.13677536231884058" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/activity_main3.xml" value="0.11246200607902736" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/activity_register.xml" value="0.13677536231884058" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/activity_splash.xml" value="0.11481481481481481" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/app_bar_main.xml" value="0.12132725430597771" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/bg_iamge.xml" value="0.19791666666666666" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/competitio_layout.xml" value="0.2" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/competition_item_layout.xml" value="0.264" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/comps_material_button.xml" value="0.13677536231884058" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/content_main.xml" value="0.12132725430597771" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/dsfafdas.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/dynamic_item_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_blank.xml" value="0.1983695652173913" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_dynamic.xml" value="0.13677536231884058" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_event.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_event_information.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_exercise.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_message.xml" value="0.264" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_message_left.xml" value="0.1828358208955224" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_message_right.xml" value="0.1983695652173913" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_movement.xml" value="0.10185185185185185" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_my_exercise.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_personage.xml" value="0.176" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_ranking.xml" value="0.10185185185185185" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/fragment_school.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/main2.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/nav_header.xml" value="0.2" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/school_item.xml" value="0.1358695652173913" />
+        <entry key="..\:/SportsCampus/app/src/main/res/layout/sdfas.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/menu/activity_main_drawer.xml" value="0.24947916666666667" />
+        <entry key="..\:/SportsCampus/app/src/main/res/menu/bottom_nav_menu.xml" value="0.14479166666666668" />
+        <entry key="..\:/SportsCampus/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.24583333333333332" />
+        <entry key="..\:/SportsCampus/app/src/main/res/menu/dynamic_toolbar.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/menu/main.xml" value="0.24947916666666667" />
+        <entry key="..\:/SportsCampus/app/src/main/res/menu/menu_resource.xml" value="0.1" />
+        <entry key="..\:/SportsCampus/app/src/main/res/menu/message_toolbar.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

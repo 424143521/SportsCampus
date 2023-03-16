@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="添加好友"
+          android:icon="@android:drawable/ic_menu_search"
+          app:showAsAction="always"
+          android:id="@+id/add_friends"/>
+    <item android:title="扫一扫"
+          android:icon="@android:drawable/ic_dialog_dialer"
+          app:showAsAction="ifRoom"
+          android:id="@+id/scan"/>
+    <item android:title="客服"
+          android:icon="@android:drawable/stat_sys_headset"
+          app:showAsAction="ifRoom"
+          android:id="@+id/servicer"/>
+    <item android:title="设置"
+          android:icon="@android:drawable/ic_menu_preferences"
+          app:showAsAction="ifRoom"
+          android:id="@+id/setting"/>
+</menu>

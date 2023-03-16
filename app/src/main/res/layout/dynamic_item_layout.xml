@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_icon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/person_icon"
+            app:civ_border_color="#03A9F4"
+            app:civ_border_width="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_icon"
+            android:hint="胡浩南"
+            android:textColor="#576B95"
+            tools:layout_editor_absoluteX="310dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/item_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name"
+            android:layout_toRightOf="@id/item_icon"
+            android:hint="今天跑了10公里真的很不错"
+            android:minLines="3"
+            tools:layout_editor_absoluteX="189dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_message"
+            android:layout_toRightOf="@id/item_icon"
+            android:hint="10月18日16:00"
+            android:textColor="#9A9A9A"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+        <ImageView
+            android:id="@+id/item_good_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/item_message"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/good"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+</LinearLayout>
