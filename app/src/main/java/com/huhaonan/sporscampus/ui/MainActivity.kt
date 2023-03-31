@@ -27,17 +27,17 @@ lateinit var binding: ActivityMainBinding
             R.layout.activity_main
         )
 
-      setSupportActionBar(binding.dynamicToolbar)
+//      setSupportActionBar(binding.dynamicToolbar)
   /*      binding.dynamicToolbar.apply {
 
             inflateMenu(R.menu.message_toolbar);
         }*/
-        supportActionBar?.let {
+     /*   supportActionBar?.let {
             //显示导航按钮
             it.setDisplayHomeAsUpEnabled(true)
 //            设置导航图标
             it.setHomeAsUpIndicator(R.drawable.person_icon)
-        }
+        }*/
 
         binding.navView.apply {
             //默认选中
@@ -75,7 +75,7 @@ lateinit var binding: ActivityMainBinding
 
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+   /* override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.message_toolbar,menu)
         return true
     }
@@ -91,7 +91,7 @@ lateinit var binding: ActivityMainBinding
 
         }
         return true
-    }
+    }*/
 
 
 }

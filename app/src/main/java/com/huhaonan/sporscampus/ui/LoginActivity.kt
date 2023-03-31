@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
 //            Toast.makeText(this,"${user.isFailure}",Toast.LENGTH_SHORT).show()
         })*/
 
-
+        //监听登录按钮
         binding.loginBtnLogin.setOnClickListener {
 
             var account = binding.loginEditAccount.text.trim().toString()
@@ -53,6 +53,7 @@ class LoginActivity : AppCompatActivity() {
 
         }
 
+        //点击注册按钮
        binding.loginBtnRegister.setOnClickListener {
             val intent = Intent(this, RegistActivity::class.java)
             startActivity(intent)

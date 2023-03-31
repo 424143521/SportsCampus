@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.SportsCampus" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.SportsCampus" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
 
         <item name="colorPrimary">@color/purple_500</item>
@@ -22,4 +22,8 @@
     </style>
     <style name="Theme.SportsCampus.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.SportsCampus.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="MyNotActionBar" parent="Theme.SportsCampus">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

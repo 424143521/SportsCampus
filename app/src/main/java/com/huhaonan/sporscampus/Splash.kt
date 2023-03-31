@@ -8,6 +8,8 @@ import com.huhaonan.sporscampus.ui.LoginActivity
 import com.huhaonan.sportscampus.R
 import java.util.*
 
+
+//程序加载页
 class Splash : AppCompatActivity() {
     override fun onCreate(@Nullable savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,7 +17,7 @@ class Splash : AppCompatActivity() {
 
         //延时操作
         val timer = Timer()
-        timer.schedule(timetast, 2000)
+        timer.schedule(timetast, 0)
     }
 
     var timetast: TimerTask = object : TimerTask() {
