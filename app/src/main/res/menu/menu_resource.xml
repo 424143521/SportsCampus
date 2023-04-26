@@ -8,4 +8,17 @@
             android:icon="@drawable/endless_runner"
             android:title="Friends"/>
     </group>
+
+        <item android:title="其他">
+            <menu>
+                <item
+                    android:icon="@color/colorPrimaryDark"
+                    android:title="设置"/>
+                <item
+                    android:icon="@color/purple_200"
+                    android:title="关于我们"/>
+            </menu>
+        </item>
+
+
 </menu>

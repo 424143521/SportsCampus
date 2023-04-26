@@ -1,16 +1,16 @@
-package com.huhaonan.sporscampus.util
+package com.huhaonan.sporscampus.logic
 
 import android.content.Context
-import android.content.Intent
 import android.os.AsyncTask
-import android.util.Log
 import androidx.lifecycle.LiveData
 import com.huhaonan.sporscampus.logic.dao.UserDao
 import com.huhaonan.sporscampus.logic.roomdatabase.AppDatabase
 import com.huhaonan.sporscampus.ui.data.User
+import kotlin.concurrent.thread
 
 //Repository类用来数据的获取，本地云端都可以
 class Repository(context: Context) {
+    //对数据库操作
     var userDao: UserDao
     var appDatabase: AppDatabase
     var allUserLive: LiveData<List<User>>
@@ -85,8 +85,9 @@ class Repository(context: Context) {
 
     }
 
-    fun insertUser(user: User) {
-        InsertAsyncTask(userDao).execute(user)
+    fun insertUser(user: User):Long {
+        val result = userDao.insertUser(user)
+        return result
     }
 
     fun updateUser(user: User) {

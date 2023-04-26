@@ -42,15 +42,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.huhaonan.sporscampus.ui.MainActivity"
+            android:name="com.huhaonan.sporscampus.ui.activity.MainActivity"
             android:exported="true"
            ></activity>
         <activity
-            android:name="com.huhaonan.sporscampus.ui.LoginActivity"
+            android:theme="@style/MyNotActionBar"
+            android:name="com.huhaonan.sporscampus.ui.activity.LoginActivity"
             android:exported="false"
            ></activity>
         <activity
-            android:name="com.huhaonan.sporscampus.ui.RegistActivity"
+            android:name="com.huhaonan.sporscampus.ui.activity.RegistActivity"
             android:exported="false"
           ></activity>
         <!--        定位服务 爱加就加  后面自己用得上-->

@@ -1,13 +1,17 @@
 package com.huhaonan.sporscampus.ui.fragment
 
 import android.os.Bundle
+import android.provider.CalendarContract.Colors
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import com.google.android.material.snackbar.Snackbar
 import com.huhaonan.sporscampus.util.SportsCampusApplication
 import com.huhaonan.sporscampus.ui.adapter.FruitAdapter
 import com.huhaonan.sporscampus.ui.data.Fruit
@@ -34,6 +38,12 @@ class SchoolFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_school,container,false)
+        binding.fab.setOnClickListener {
+            //            Toast.makeText(this,"悬浮按钮",Toast.LENGTH_LONG).show()
+            Snackbar.make(it,"Snackbar提示",Snackbar.LENGTH_SHORT).setAction("点击"){
+                Toast.makeText(activity,"Snackbar被点击",Toast.LENGTH_LONG).show()
+            }.show()
+        }
         swipeRefresh = binding.swipeRefresh
         initFruits()
         val recyclerView =binding.recyclerView
@@ -49,6 +59,16 @@ class SchoolFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val toolbar = binding.toolBar
+        val appCompatActivity  = activity as AppCompatActivity?
+        appCompatActivity?.setSupportActionBar(toolbar)
+        val supportActionBar = appCompatActivity?.supportActionBar
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        binding.collapsingToolbar.title = "打卡校园"
+
+    }
     private fun refreshAdapter(adapter: FruitAdapter) {
         thread {
             Thread.sleep(2000)

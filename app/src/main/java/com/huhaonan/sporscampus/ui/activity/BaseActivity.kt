@@ -1,7 +1,8 @@
-package com.huhaonan.sporscampus
+package com.huhaonan.sporscampus.ui.activity
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 open class BaseActivity:AppCompatActivity() {
@@ -15,4 +16,16 @@ open class BaseActivity:AppCompatActivity() {
         super.onDestroy()
         ActivityController.removeActivity(this)
     }
+
+   fun showMessage(text:String){
+        Toast.makeText(this,text,Toast.LENGTH_SHORT).show();
+    }
+
+    fun  showDialog(){
+
+    }
+    fun dismissDialog(){
+
+    }
+
 }

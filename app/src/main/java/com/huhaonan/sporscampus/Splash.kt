@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.annotation.Nullable
 import androidx.appcompat.app.AppCompatActivity
-import com.huhaonan.sporscampus.ui.LoginActivity
+import com.huhaonan.sporscampus.ui.activity.LoginActivity
 import com.huhaonan.sportscampus.R
 import java.util.*
 

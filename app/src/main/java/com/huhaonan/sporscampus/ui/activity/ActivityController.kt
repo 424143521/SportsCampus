@@ -1,4 +1,4 @@
-package com.huhaonan.sporscampus
+package com.huhaonan.sporscampus.ui.activity
 
 import android.app.Activity
 

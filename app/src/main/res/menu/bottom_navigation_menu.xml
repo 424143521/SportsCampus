@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item
-        android:id="@+id/exerciseFragment"
-        android:icon="@drawable/exercise"
-        android:title="@string/exercise_title" />
     <item
         android:id="@+id/schoolFragment"
         android:icon="@drawable/school"
         android:title="@string/school_title" />
+    <item
+        android:id="@+id/exerciseFragment"
+        android:icon="@drawable/exercise"
+        android:title="@string/exercise_title" />
+
     <item
         android:id="@+id/messageFragment"
         android:icon="@drawable/dynamic"
