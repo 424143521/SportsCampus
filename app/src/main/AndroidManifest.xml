@@ -33,11 +33,7 @@
         <activity
             android:name="com.huhaonan.sporscampus.Splash"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.huhaonan.sporscampus.ui.MainActivity"
@@ -47,6 +43,22 @@
             android:name="com.huhaonan.sporscampus.ui.LoginActivity"
             android:exported="false"
            ></activity>
+        <activity
+            android:name="com.huhaonan.sporscampus.GuideActivity"
+            android:exported="true"
+            >
+
+        </activity>
+        <activity
+            android:name="com.huhaonan.sporscampus.LauncherActivity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.huhaonan.sporscampus.ui.RegistActivity"
             android:exported="false"
